@@ -1,0 +1,184 @@
+body {
+    background-image: url("../img/29c58e0b94bff96c26d27239d79fc34e.jpg")
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+li {
+float: left;
+padding-right: 40px;
+}
+a{
+    color:white;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: white;
+}
+/*Mobile*/
+[class*="HomePage"] {
+
+    font-size: 1em;
+    width: 100%;
+    background-color: grey;
+}
+
+
+
+/* Tablets*/
+@media only screen and (min-width: 770px) {
+    [class*="HomePage"]   {
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: brown;
+        width: 100%;
+        background-color: yellowgreen;
+    }
+    a{
+        color:white;
+        font-size: 24px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 1280px)   {
+    [class*="HomePage"]   {
+        width: 100%;
+        font-size:4em;
+        color: darkgoldenrod;
+        background-color: blueviolet;
+    }
+    a{
+        color:white;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+}
+
+h1, h4 {
+color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.p2 {
+    position: absolute;
+font-size: 20px;
+color: white;
+float: left;
+}
+
+.p3 {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    font-size: 20px;
+    color: white;
+    float: left;
+    }
+
+h3 {
+    position: absolute;
+        color: white;
+        top: 55%;
+    }
+.p4 {
+        position: absolute;
+        left: 0%;
+        top: 60%;
+        font-size: 20px;
+        color: white;
+        float: left;
+        }
+
+        p {
+            position: absolute;
+            left: 0%;
+            top: 40%;
+            font-size: 40px;
+            color: white;
+            float: left;
+            text-align: center;
+        }
+
+        h1{
+            color: white;
+        }
+
+        h1{
+            color: white;
+        }
+
+        .p5 {
+            position: absolute;
+            left: 0%;
+            top: 10%;
+            font-size: 20px;
+            color: white;
+            float: left;
+            }
+
+            h1 {
+            
+                color: white;
+            }
+
+            .p6 {
+                position: absolute;
+                left: 0%;
+                top: 30%;
+                font-size: 20px;
+                color: white;
+                float: left;
+                }
+                #Education
+            {
+                position: absolute;
+                top: 55%;
+            }
+#Hobbies{
+    position: absolute;
+    top: 25%;
+}
+
+#Languages {
+    position: absolute;
+    top: 50%;
+}
+              .p7 {
+                  position: absolute;
+                  top: 55%;
+                  float: left;
+                  color: white;
+                  font-size: 20px;
+                
+              }
+
+#Animation
+{
+    width: 10%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    animation: moving 10s linear;
+    
+}
+@keyframes moving
+{
+    0%   { left: 10%;}
+  25%  {left:30%; }
+  50%  {left: 50%;}
+  75%  {left: 70%;}
+  100% {left: 90%;}
+}
